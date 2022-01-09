@@ -1,0 +1,10 @@
+<mat-card>
+  <mat-card-content>
+    <section>
+      <h3>value: {{value}}</h3>
+      <app-filho [title]="title" (plusOne)="incby(1)" (plustwo)="incby(2)" (minusOne)="incby(-1)"
+        (minustwo)="incby(-2)">
+      </app-filho>
+    </section>
+  </mat-card-content>
+</mat-card>
